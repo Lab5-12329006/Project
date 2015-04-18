@@ -1,0 +1,265 @@
+/* CSS Document */
+
+body {
+	background: url(../image/ground.jpg);
+	background-repeat: repeat;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.main{
+	width:1000px;
+	height:1000px;
+	margin-left:120px;
+	}
+#menu{
+	height:35px
+}
+#mnMain{
+	width:200px;
+	height:35px;
+	float:right;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:#F00;
+	border-bottom-left-radius:5px;
+	text-align:center;
+	box-shadow:-3px -3px 5px #990000 inset;
+	
+	}
+#mnMain a{
+	text-decoration:none;
+	color:#FFF;
+	line-height:30px;
+	}
+.step{
+	height:100px;
+
+	margin-top:10px;
+	
+	}
+#img{
+	width:350px;
+	height:90px;
+	float:left;
+	margin-top:10px;
+	}
+#st{
+	width:130px;
+	height:50px;
+	float:left;
+	border:1px #CCC solid;
+	margin-left:20px;
+	margin-top:10px;
+	color:#333;
+	line-height:50px;
+	font-size:16px;
+	text-align:center;
+	border-radius:5px;
+	background:#FFF;
+	}
+#st:hover{
+	background:#0FF;
+	}
+#tkMain{
+	height:161px;
+	background:#FFF;
+	border-bottom:5px #FF0000 solid;
+	font-size:14px;
+	color:#333;
+	}
+#im{
+	width:150px;
+	float:left;
+	}
+#tt{
+	width:250px;
+	height:161px;
+	float:left;
+	margin-left:30px;
+	line-height:40px;
+	}
+#tt select{
+	width:200px;
+	height:30px;
+	font-size:13px;
+	border-radius:1px;
+	border:none;
+	border:1px #CCCCCC solid;
+	}
+#tt input{
+	width:150px;
+	height:30px;
+	border-radius:2px;
+	border:1px #CCCCCC solid;
+	
+	}
+#rdo{
+	height:40px;
+	margin-top:40px;
+
+}
+#tt1{
+	width:250px;
+	height:161px;
+	float:left;
+	margin-left:30px;
+	}
+	
+#tk1{
+	height:50px;
+	margin-top:30px;
+	
+	}
+#tk1 select{
+	width:60px;
+	height:30px;
+
+	}
+#tk1 input{
+	width:100px;
+	height:40px;
+	border-radius:3px;
+	border:none;
+	font-size:18px;
+	color:#FFF;
+	background:#0CF;
+	}
+#contain{
+	height:700px;
+	background:#FFF;
+	text-indent:20px;
+	line-height:30px;
+	
+	}
+#kq{
+	height:300px;
+	width:200px;
+	background:#009;
+	float:left;
+	margin-left:40px;
+	}
+#slSeat{
+	height:450px;
+	width:300px;
+	background:#09C;
+	float:left;
+	margin-left:30px;
+	}
+#ld{
+	width:500px;
+	height:35px;
+	float:left;
+	font-size:14px;
+	line-height:35px;
+	text-align:center;
+	font-weight:bold;
+	color:#900;
+	border:1px #999999 solid;
+		border-bottom:none;
+	}
+#ld input{
+	width:500px;
+	height:35px;
+	background:#FFF;
+	border:none;
+	
+	}
+#lv{
+	width:497px;
+	height:35px;
+	float:left;
+	font-size:14px;
+	border:1px #999999 solid;
+	line-height:35px;
+	text-align:center;
+	border-left:none;
+
+	}
+#lv input{
+	width:496px;
+	height:35px;
+	background:#FFF;
+	border:none;
+	}
+#nd{
+	height:600px;
+	background:#FFF;
+	border:1px #999999 solid;
+	border-top:none;
+}
+#td{
+	height:40px;
+	}
+#mt{
+	height:60px;
+	background:#F00;
+	font-size:16px;
+	color:#FFF;
+	line-height:60px;
+	
+	}
+#dt{
+	height:80px;
+	background:#CCC;
+	}
+#tg{
+	width:150px;
+	height:80px;
+	float:left;
+	margin-left:30px;
+	line-height:80px;
+	text-align:center;
+	border-right:1px #666666 dashed;
+	}
+#dr{
+	width:520px;
+	height:80px;
+	float:left;
+	line-height:30px;
+	text-align:center;
+	border-right:1px #666666 dashed;
+	}
+#pr{
+	width:170px;
+	height:80px;
+	float:left;
+	line-height:80px;
+	text-align:center;
+	border-right:1px #666666 dashed;
+	}
+#sl{
+	width:100px;
+	height:80px;
+	float:left;
+	font-size:18px;
+	}
+#sl input{
+	margin-top:25px;
+	margin-left:25px;
+	width:20px;
+	height:20px;
+	}
+#dt:hover{
+	background:#0CF;
+	color:#FFF;
+	}
+#bttk{
+	height:40px;
+	margin-top:10px;
+	}
+#bttk input{
+	width:100px;
+	height:40px;
+	border:none;
+	border-radius:3px;
+	background:#9F0;
+	float:right;
+	}
+#fd{
+	height:200px;
+	background-image:url(../image/maunen2.jpg);
+	margin-top:20px;
+	margin-bottom:30px;
+	text-align:center;
+	font-size:13px;
+	}
+
+	

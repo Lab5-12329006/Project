@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+body {
+	background: url(../image/ground.jpg);
+	background-repeat: repeat;
+}
+
+.container {
+	width: 1080px;
+	margin: 100px;
+	margin-top: 0px;
+	position: relative;
+	background-color: white;
+	z-index: 0;
+	position: relative;
+	background-color: white;
+	z-index: 0;
+	border-top: 16px solid red;
+}
+
+.log {
+	float: right;
+	font-size: 14px;
+	position: relative;
+	z-index: 1;
+}
+
+.log li {
+	background-color: #770000;
+	padding: 10px 18px;
+	margin-right: 70px;
+	border-left: 1px solid #f05757;
+	border-right: 1px solid #f05757;
+	border-bottom: 1px solid #f05757;
+	border-top: 1px solid #f05757;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	display: inline-block;
+	border-left: 1px solid #f05757;
+}
+
+.log li:hover {
+	background-color: blue;
+	text-shadow: 0px 1px 1px black;
+}
+
+.log li a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.register {
+	float: right;
+	margin-top: -100px;
+	margin-right: 100px;
+	font-size: 20px;
+}
+
+.register a {
+	text-decoration: none;
+	color: red;
+}
+
+.menuimage {
+	position: relative;
+	top: -40px;
+}
+
+.image {
+	position: absolute;
+	top: -130px;
+	left: 0px;
+	z-index: -1;
+}
+
+#menu {
+	margin-left: 200px;
+	list-style-type: none;
+	height: 36px;
+}
+
+#menu li {
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #65A2DC;
+	float: left;
+	color: black;
+	display: block;
+}
+
+#menu li a {
+	text-decoration: none;
+	border: 1px solid #DDECF9;
+	text-align: left;
+	display: block;
+	float: left;
+	color: black;
+	padding: 0 20px;
+	font: bold 16px Arial;
+	border-top: 1px solid #ffffff;
+	line-height: 36px;
+}
+
+#menu li a:HOVER {
+	color: white;
+	background-color: #BB0000;
+}
+
+#menu li #selected {
+	background-color: #BB0000;
+}
+
+.world {
+	position: relative;
+	background-repeat: no-repeat;
+	z-index: -2;
+	top: -50px;
+}
+
+.ticket-form input[type="radio"] {
+	margin-right: 10px;
+}
+
+.ticket-form {
+	background: url(../image/maunen1.png);
+	background-repeat: repeat-x;
+	margin-top: -50px;
+	position: absolute;
+	width: 100%;
+	height: 400px;
+}
+
+.radio-name li {
+	float: left;
+	text-decoration: none;
+	display: inline;
+}
+
+.oneway {
+	margin-left: 40px;
+	margin-top: -60px;
+}
+
+.return {
+	margin-left: 140px;
+	margin-top: -60px;
+}
+
+.fivecolumn {
+	padding-top: 40px;
+	padding-left: 80px;
+}
+
+.fourcolumn {
+	margin-top: -60px;
+	margin-left: 300px;
+}
+
+.threecolumn {
+	margin-top: -60px;
+	padding-left: 500px;
+}
+
+.onecolumn {
+	margin-top: 10px;
+	padding-left: 80px;
+}
+
+.fromleave {
+	height: 30px;
+	width: 150px;
+}
+
+.sixcolumn {
+	margin-top: 10px;
+	margin-left: 300px;
+}
+
+.fromgoing {
+	height: 30px;
+	width: 150px;
+}
+
+.pax {
+	margin-top: 10px;
+	margin-left: 500px;
+}
+
+.paxcolumn {
+	height: 30px;
+	width: 70px;
+}
+
+.depart {
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+.textdepart {
+	margin-left: 80px;
+	margin-top: 10px;
+}
+
+.text {
+	width: 100px;
+	height: 20px;
+}
+
+.return-on {
+	margin-top: -55px;
+	margin-left: 300px;
+}
+
+.text-return {
+	margin-top: 10px;
+	margin-left: 300px;
+}
+
+.text-return-on {
+	width: 100px;
+	height: 20px;
+}
+
+.promotion-code {
+	margin-top: -55px;
+	margin-left: 500px;
+}
+
+.promotion {
+	margin-top: 10px;
+	margin-left: 500px;
+}
+
+.text-promotion {
+	width: 100px;
+	height: 20px;
+}
+
+.bus-ticket {
+	margin-top: 15px;
+	margin-left: 40px;
+}
+
+.phone-bus {
+	list-style-type: none;
+	color: red;
+}
+
+.introduction {
+	margin-top: -85px;
+	margin-left: 300px;
+	width: 200px;
+}
+
+.button-search {
+	margin-top: -70px;
+	margin-left: 500px;
+}
+
+.btn {
+	background-color: #21759B;
+	background-image: linear-gradient(to bottom, #2A95C5, #21759B);
+	box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset;
+	border-color: #21759B #21759B #1E6A8D #21759B;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px 3px 3px 3px;
+	display: inline-block;
+	padding: 15px 15px 7px 5px;
+	margin: 2px 4px;
+	color: #FFFFFF;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	text-decoration: none;
+	cursor: pointer;
+	white-space: nowrap;
+	width: 95px;
+	height: 25px;
+}
+
+.btn:hover,.btn:focus {
+	background-color: #278AB7;
+	background-image: linear-gradient(to bottom, #2E9FD2, #21759B);
+	border-color: #1B607F;
+	box-shadow: 0 1px 0 rgba(120, 200, 230, 0.6) inset;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3)
+}
+
+.footer {
+	background: url(../image/maunen2.jpg);
+	background-repeat: repeat-x;
+	margin-top: 900px;
+	position: absolute;
+	width: 100%;
+	height: 150px;
+}
+
+.AboutUs {
+	float: left;
+	background-image: url(../image/maunen1.png);
+	margin-top: -50px;
+	background-repeat: no-repeat;
+	background-size: 100%  950px;
+}
+.container .row .AboutUs .AboutUs_left {
+	float: left;
+	height: 950px;
+	width: 60%;
+	margin-left: 10%;
+}
+.container .row .AboutUs .AboutUs_right {
+	float: left;
+	height: 950px;
+	width: 30%;
+}
